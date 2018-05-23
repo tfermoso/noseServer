@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tareas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/tareas.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <h1>Web de tareas</h1>
+        <form action="/" method="post" id="formulario">
+            <input type="hidden" name="id" value="[id_editar]">
+            <input type="text" required name="nombre" id="nombre" placeholder="Nombre de usuario">
+            <input type="text" required name="tarea" id="tarea" placeholder="Nombre de la tarea">
+            <div id="botones">
+                <button type="submit" id="enviar">Enviar</button>
+                <button type="reset" id="cancelar">Cancelar</button>
+            </div>
+        </form>
+        <hr>
+        <table id="tabla">
+            <thead>
+                <th>id</th>
+                <th>usuario</th>
+                <th>tarea</th>
+                <th>Operaciones</th>
+
+            </thead>
+            <tbody id="tabla">
+                [sustituir]
+
+
+            </tbody>
+        </table>
+    </div>
+<footer>
+    pie de página
+</footer>
+
+</body>
+
+</html>
